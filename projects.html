@@ -1,0 +1,287 @@
+<!DOCTYPE HTML>
+<!--
+	PORTFOLIO WEBSITE
+	from: html5up.net | Massively
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Polina Orlov</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Polina Orlov<br />
+						Portfolio</h1>
+						<p>Data Anlyst and Biologist. <br />
+						Statistical Modeling, SQL, R, Python, Power BI </p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header 
+					<header id="header">
+						<a href="index.html" class="logo">Polina Orlov</a>
+					</header>
+					-->
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="projects.html">Feature Projects</a></li>
+							<li><a href="publications.html">Publications</a></li>
+							<li><a href="about-me.html">About Me</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/polinaorlov/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<!-- <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li> -->	
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<span class="date">Winter 2026</span>
+									<h2><a href="#">Exploring Survivor trends<br /> </a></h2>
+									<p>I am an avid <em>Survivor</em> fan. After watching the last six seasons glued to the TV every Wednesday, 
+										I became curious about a common strategic concept in the game: voting with the majority. 
+										Contestants frequently talk about being on the “right side of the vote,” sometimes even prioritizing 
+										alignment with the majority over their personal preference in a vote. </p>
+										
+										<p> In theory, this strategy helps 
+										players avoid openly opposing others and keeps them aligned with the social leaders driving the outcome. 
+										But does it actually improve a player’s chances in the game?</p>
+
+										<p>To explore this question, I analyzed public Survivor data available on <a href="https://github.com/doehm/survivoR" target="_blank">GitHub</a>. 
+										I built a SQL database 
+										containing vote history and player information, used SQL and R for data cleaning and transformation, 
+										and leveraged Power BI with DAX to perform analysis and build interactive visualizations.</p>
+										
+										<p>The resulting dashboard explores how often players vote with the majority and whether doing so is 
+										associated with stronger overall performance in the game. Check out the dashboard below!
+									 </p>
+								</header>
+								<a href="#" class="image main"><img src="images/Surv_dash_screenshot.jpg" alt="" /></a>
+								<ul class="actions special">
+									<li><a href="#" class="button large">view dashboard</a></li>
+								</ul>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2><a href="#">Survivor database<br />
+									</header>
+									<a href="#" class="image fit"><img src="images/Survivor-Logo-torch.jpg" alt="" /></a>
+									<p>This is the SQL code used for the Survivor project. 
+										Software used: Visual Studio Core.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">VIEW</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Survivor Project<br />
+										Insights</a></h2>
+									</header>
+							<!--Box style inserts for Insights-->
+									<style>
+										.insight-box {
+										  background-color: #f7f7f7;
+										  border-left: 4px solid #222;
+										  padding: 16px 16px;
+										  margin-bottom: 16px;
+										  border-radius: 8px;
+										}
+										.insight-box p {
+										  margin: 0;
+										  line-height: 1.6;
+										}
+										.insight-title {
+										  font-weight: 700;
+										  display: block;
+										  margin-bottom: 6px;
+										}
+									  </style>
+									  <div class="insight-box">
+										<p> <strong>1. Majority-vote alignment appears to be positively associated with stronger game performance.</strong> 
+											However, the weak correlation signals that there are other important factors determining final 
+											position outcome for each player. </p>
+									  </div>
+									  <div class="insight-box">
+										<p> <strong>2. Winners (a.k.a Sole Survivors) are on the "right side of the vote" at least half of the time.</strong>
+											The average Winner is in majority-vote alignment 77% of the time. </p>
+									  </div>
+									  <div class="insight-box">
+										<p> <strong>3. The relationship between majority voting and success weakens in the “New Era”, seasons 41+.</strong>
+											The traditional “right side of the vote” strategy may be fading as a dominant path to success, 
+											likely due to increased advantages, smaller tribes, and more fluid alliance structures.</p>
+									  </div>
+									  <div class="insight-box">
+										<p> <strong>4. Individual-level vote history can reveal alliance shifts and loss of influence.</strong> </p>
+									  </div>
+						<!--  text without the boxes
+									<p> <strong>1. Majority-vote alignment appears to be positively associated with stronger game performance.</strong> 
+										However, the weak correlation signals that there are other important factors determining final 
+										position outcome for each player. </p>
+									<p> <strong>2. Winners (a.k.a Sole Survivors) are on the "right side of the vote" at least half of the time.</strong>
+										The average Winner is in majority-vote alignment 77% of the time. </p>
+									<p> <strong>3. The relationship between majority voting and success weakens in the “New Era”, seasons 41+.</strong>
+											The traditional “right side of the vote” strategy may be fading as a dominant path to success, 
+											likely due to increased advantages, smaller tribes, and more fluid alliance structures.</p>
+									<p> <strong>4. Individual-level vote history can reveal alliance shifts and loss of influence.</strong> </p>
+						 --> 
+
+								</article>
+								<article>
+									<header>
+										<span class="date">Fall 2025</span>
+										<h2><a href="#">Austin Bikeshare<br />
+										Data Exploration</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/Bikeshare_dash_screenshot.jpg" alt="" /></a>
+									<p>This project explores ridership patterns in the Austin Bikeshare system 
+										through an interactive Power BI dashboard built from a public BigQuery 
+										dataset. It showcases data modeling, cloud data integration, and analytical 
+										visualization techniques to uncover trends in trip duration, subscriber usage, 
+										and seasonal demand.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">View Dashboard</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Bikeshare Insights<br />
+										</a></h2>
+									</header>
+							<!-- 		<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a> -->
+									<div class="insight-box">
+										<p> <strong>1. Austin bikeshare demand is strongly seasonal.</strong>
+											Average monthly trip time is generally higher in warmer months but highest in Spring and Fall months. 
+											Demand softens through late fall and winter.</p>
+									  </div>
+									<div class="insight-box">
+										<p> <strong>2. Ridership is concentrated at a relatively small number of stations. </strong>
+											The top 5 bike stations generates a disproportionate share of total trips in the most recent 3 years. 
+											These highlight hubs of high-demand, high-sale locations. 
+											</p>
+									  </div>
+									<div class="insight-box">
+										<p> <strong>3. Membership-specific trends illuminate window of opportunity. </strong>
+											Annual membership usage dip significantly in Nov-Jan; Student membership usage have a 100% growth from August to September. 
+											Targetted marketing campaigns could help boost sales in low seasons. 
+											</p>
+									  </div>
+									<div class="insight-box">
+										<p> <strong>4. Electic is the new standard. </strong>
+											Since early 2020, electic bikes have consistently outperformed classic in weekly trips. In 2014, 
+											there were 16 electic bike trips for each classic.
+											</p>
+									  </div>
+								</article>
+							</section>
+
+<!-- page numbers section-->
+						<!-- Footer -->
+							<!--<footer>
+								<div class="pagination"> -->
+									<!--<a href="#" class="previous">Prev</a>-->
+									<!-- 
+									<a href="#" class="page active">1</a>
+									<a href="#" class="page">2</a>
+									<a href="#" class="page">3</a>
+									<span class="extra">&hellip;</span>
+									<a href="#" class="page">8</a>
+									<a href="#" class="page">9</a>
+									<a href="#" class="page">10</a>
+									<a href="#" class="next">Next</a>
+								</div>
+							</footer>
+					</div>-->
+
+				<!-- Footer -->
+				 
+					<footer id="footer">
+						<!--
+							<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						-->
+						<section class="split contact">
+							<section class="alt">
+								<h3>LinkedIn</h3>
+								<p><a href="https://www.linkedin.com/in/polinaorlov/" target="_blank">linkedin.com/in/polinaorlov/</a>
+								</p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="mailto:polinao1297@gmail.com" target="_blank">polinao1297@gmail.com</a> 
+								</p>
+							</section>
+							<section>
+								<h3>GitHub</h3>
+								<p><a href="https://github.com/polinaorlov" target="_blank">github.com/polinaorlov</a> 
+								</p>
+							</section>
+				<!-- socials section 
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						-->
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
